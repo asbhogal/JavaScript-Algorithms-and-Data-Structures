@@ -1,0 +1,10 @@
+var myVar = 87;
+
+// TO INCREMENT THE VALUE OF A (PREVIOUSLY DECLARED AND ASSIGNED) VARIABLE:
+
+myVar = myVar + 1;          // OUTPUTS 88
+
+// THE QUICKER WAY OF ACHIEVING THIS:
+
+myVar++;                    // OUTPUTS 89 (ACCOUNTING FOR ABOVE)
+console.log(myVar);
