@@ -1,1 +1,5 @@
-//FLOATING POINTS
+//FLOATING POINTS (ALSO KNOWN AS DECIMALS AND FLOATS) CAN ALSO BE ASSIGNED TO VARIABLES
+
+var ourDecimal = 5.7;
+var myDecimal = 0.006;
+console.log(myDecimal);
