@@ -163,4 +163,38 @@ var myLastName = "Bhogal";
 
     // THE SAME OBJECTIVE IS ACHIEVED HERE, BUT BY DIRECTLY REPLACING THE STRING. THIS CAN BE DONE AT ANY POINT, WITHOUT NEEDING TO GO BACK TO WHEN THE VARIABLE WAS FIRST INITIALISED WITH THE INCORRECTLY-TYPED VALUE
 
-// BRACKED NOTATION TO FIND THE nth CHARACTER IN A STRING
+// BRACKET NOTATION TO FIND THE nth CHARACTER IN A STRING
+
+    // SIMILAR TO THE ABOVE, TO FIND THE 8th LETTER, USING THE INDEX NOTATION:
+
+    var originalString = "Hello World";
+    var sixthLetterOfString = "";
+
+    sixthLetterOfString = originalString[8];
+
+    console.log(sixthLetterOfString);       // OUTPUTS r (INCLUDES SPACE)
+
+// FINDING THE LAST LETTER OF A STRING
+
+    // THE LAST LETTER OF A STRING VARIABLE CAN BE USED WITHOUT NEEDING TO KNOW ITS LENGTH VIA THE FOLLOWING:
+
+    var lastLetterMiddleName = "Singh";
+    var lastLetterOfMiddleName = lastLetterMiddleName[lastLetterMiddleName.length - 1];
+
+    // THIS TAKES THE STRING VARIABLE, LEVERAGES THE BRACKET NOTATION AND .length PROPERTY TO FIND THE LAST LETTER AND RETURN THIS VALUE TO THE STRING VARIABLE lastLetterOfMiddleName
+    // N.B. -1 MUST BE DONE DUE TO JAVASCRIPT STARTING THE INDEXING AT 0
+
+    console.log(lastLetterOfMiddleName);    // OUTPUTS h
+
+// FINDING THE nth TO LAST LETTER OF A STRING
+
+    // LEVERAGING THE ABOVE, THE FOLLOWING CAN BE USED TO FIND THE nth-TO-LAST LETTER OF A STRING
+    // e.g. TO FIND THE 3rd TO LAST :
+
+    var thirdLastLetter = "Singh";
+    var thirdLastLetterValue = thirdLastLetter[thirdLastLetter.length - 3];
+
+    // THIS 'NORMALISES' IT FOR HUMANS, AS REMEMBER WE COUNT FROM 1, NOT FROM 0
+
+    console.log(thirdLastLetterValue);      // OUTPUTS n
+
