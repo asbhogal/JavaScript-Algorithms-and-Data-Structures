@@ -1,4 +1,4 @@
-<div class="center">
+<div align="center">
 
 <h1>JavaScript Algorithms & Data Structures - freeCodeCamp</h1>
 
