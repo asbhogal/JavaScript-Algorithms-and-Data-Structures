@@ -1,5 +1,5 @@
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {                                // WHEN THE FUNCTION wordBlanks IS CALLED, ACCEPT THE DATA IN THE FOUR STRING VARIABLE PARAMETERS
-    var result = ""                                                                         // DECLARE AND INITIALISE THE result VARIABLE AS A STRING VARIABLE
+    var result = ""                                                                         // DECLARE AND INITIALIZE THE result VARIABLE AS A STRING VARIABLE
     result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store.";        // APPEND THE CONTENTS SENT TO THE PARAMETERS AND CONCATENATE THESE (IN THE RIGHT GRAMMATICAL ORDER). ASSIGN THIS WHOLE STRING VALUE TO result
     return result;                                                                          // STOPS THE EXECUTION AND RETURNS THE VALUE OF RESULT TO THE INITIAL FUNCTION, WHICH IS THEN SENT TO THE CALL - THIS OUTPUT IS NEEDED
 }
