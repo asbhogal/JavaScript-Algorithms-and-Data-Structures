@@ -7,3 +7,5 @@
 let difficultSpelling = "Mississippi";
 let myRegex = /s+/g;     // i optional dep. on result and string
 let result = difficultSpelling.match(myRegex);
+
+console.log(result);    // returns [ 'ss', 'ss' ]
