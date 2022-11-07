@@ -11,3 +11,5 @@ const myStorage = {
 };
 
 const gloveBoxContents = myStorage.car.inside["glove box"];
+
+console.log(gloveBoxContents);
