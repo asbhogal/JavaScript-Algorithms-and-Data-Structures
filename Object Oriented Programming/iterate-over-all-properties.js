@@ -20,3 +20,6 @@ for (let property in beagle) {
     prototypeProps.push(property);
   }
 }
+
+console.log(ownProps);
+console.log(prototypeProps);

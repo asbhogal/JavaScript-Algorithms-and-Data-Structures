@@ -7,3 +7,5 @@ function Dog(name, color) {
 }
 
 let terrier = new Dog ('Frodo', 'Maroon');
+
+console.log(terrier);
