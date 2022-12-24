@@ -8,8 +8,8 @@ const names = ["alice", "bob", "charlie", "danielle"]
 // -->        ["Alice", "Bob", "Charlie", "Danielle"]
 // Your code here
 
-const convertedName = names.map(function(name) {
-    return name.charAt(0).toUpperCase() + name.slice(1)
+const convertedName = names.map((name) => {
+    return name[0].toUpperCase() + name.slice(1)
 })
 
 console.log(convertedName);
