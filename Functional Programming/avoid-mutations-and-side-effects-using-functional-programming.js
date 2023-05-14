@@ -3,6 +3,5 @@
 let fixedValue = 4;
 
 function incrementer() {
-  let newValue = fixedValue + 1;
-  return newValue;
+  return fixedValue + 1;
 }
