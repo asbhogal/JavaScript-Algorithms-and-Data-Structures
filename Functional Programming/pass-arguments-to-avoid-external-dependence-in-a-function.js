@@ -11,3 +11,11 @@ function incrementer(fixedValue) {
 
   // Only change code above this line
 }
+
+// OR
+
+function incrementer(num) {
+  return num++;
+}
+
+console.log(incrementer(fixedValue), fixedValue); // returns 5, 4 - showing fixedValue remains unchanged

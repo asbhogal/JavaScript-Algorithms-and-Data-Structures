@@ -5,3 +5,5 @@ let fixedValue = 4;
 function incrementer() {
   return fixedValue + 1;
 }
+
+console.log(incrementer(), fixedValue); // returns 5, 4 - showing fixedValue remains unchanged
