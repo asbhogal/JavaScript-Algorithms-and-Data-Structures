@@ -6,7 +6,7 @@ function copyMachine(arr, num) {
     // Only change code below this line
     newArr.push([...arr]);
     // Only change code above this line
-    num--;  // Ensures iteration counts down. ie. num = 2 means loop will run twice, appending two arrays (ie. copies) of the entire arr parameter contents to newArr.
+    num--; // Ensures iteration counts down. ie. num = 2 means loop will run twice, appending two arrays (ie. copies) of the entire arr parameter contents to newArr.
   }
   return newArr;
 }

@@ -1,61 +1,54 @@
 /* CREATE LOOKUP TABLE OBJECT */
 
 const CHARACTER_CONVERSION_TABLE = {
-  "A" : "N",
-  "B" : "O",
-  "C" : "P",
-  "D" : "Q",
-  "E" : "R",
-  "F" : "S",
-  "G" : "T",
-  "H" : "U",
-  "I" : "V",
-  "J" : "W",
-  "K" : "X",
-  "L" : "Y",
-  "M" : "Z",
-  "N" : "A",
-  "O" : "B",
-  "P" : "C",
-  "Q" : "D",
-  "R" : "E",
-  "S" : "F",
-  "T" : "G",
-  "U" : "H",
-  "V" : "I",
-  "W" : "J",
-  "X" : "K",
-  "Y" : "L",
-  "Z" : "M",
-}
+  A: "N",
+  B: "O",
+  C: "P",
+  D: "Q",
+  E: "R",
+  F: "S",
+  G: "T",
+  H: "U",
+  I: "V",
+  J: "W",
+  K: "X",
+  L: "Y",
+  M: "Z",
+  N: "A",
+  O: "B",
+  P: "C",
+  Q: "D",
+  R: "E",
+  S: "F",
+  T: "G",
+  U: "H",
+  V: "I",
+  W: "J",
+  X: "K",
+  Y: "L",
+  Z: "M",
+};
 
 /* ENCRYPT/DECRYPT FUNCTION */
 
 function rot13(str) {
-
   const regexCheck = /[a-z]/i;
-  let   inputString = str,
-        convertedString = "";
+  let inputString = str,
+    convertedString = "";
 
   for (let i = 0; i < inputString.length; i++) {
-
-      const individualLetter = str[i];
-      let convertedLetter = "";
+    const individualLetter = str[i];
+    let convertedLetter = "";
 
     if (regexCheck.test(individualLetter)) {
-
       convertedLetter = CHARACTER_CONVERSION_TABLE[individualLetter];
-      convertedString += convertedLetter
-
+      convertedString += convertedLetter;
     } else {
-
       convertedString += inputString[i];
-
     }
   }
 
   return convertedString;
-
 }
 
 console.log(rot13("SERR PBQR PNZC"));

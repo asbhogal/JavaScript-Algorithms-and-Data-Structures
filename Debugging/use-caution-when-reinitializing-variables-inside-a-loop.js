@@ -3,9 +3,11 @@
 function zeroArray(m, n) {
   let newArray = [];
   let row = [];
-  for (let i = 0; i < m; i++) {             // OUTER LOOP
+  for (let i = 0; i < m; i++) {
+    // OUTER LOOP
     row = [];
-    for (let j = 0; j < n; j++) {           // INNER LOOP
+    for (let j = 0; j < n; j++) {
+      // INNER LOOP
       row.push(0);
     }
     newArray.push(row);

@@ -4,14 +4,14 @@ var ourDecimal = 5.7;
 var myDecimal = 0.006;
 console.log(myDecimal);
 
-// TO MULTIPLY 
+// TO MULTIPLY
 
-var product = 2.0 * 2.5;        // OUTPUTS 5
+var product = 2.0 * 2.5; // OUTPUTS 5
 console.log(product);
 
 // TO DIVIDE
 
-var quotient = 4.4 / 2;         // OUTPUTS 2.2
+var quotient = 4.4 / 2; // OUTPUTS 2.2
 console.log(quotient);
 
 // FINDING A REMAINDER
@@ -19,9 +19,8 @@ console.log(quotient);
 // THE OPERATOR '%' CALCULATES THE REMAINDER OF A SUM (ie. DIVISION OF TWO NUMBERS) AND RETURNS THE VALUE
 
 var remainder;
-remainder = 11 % 3;             // OUTPUTS 2
+remainder = 11 % 3; // OUTPUTS 2
 console.log(remainder);
 
 // 11 DIVIDED BY THREE IS 9. 11 minus 9 = 2 ie. 11 REMAINDER 3 = 2
 // THE REMAINDER OPERATOR IS OFTEN USED TO DETERMINE IF A NUMBER IS EVEN OR ODD. IF A NUMBER IS DIVIDED BY 2 AND THE REMAINDER = 0, LOGIC FOLLOWS THAT THE NUMBER IS EVEN
-

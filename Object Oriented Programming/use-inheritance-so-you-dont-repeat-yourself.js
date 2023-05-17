@@ -22,11 +22,11 @@ Bear.prototype = {
 
 /*************************** */
 
-function Animal() { }
+function Animal() {}
 
 Animal.prototype = {
   constructor: Animal,
-    eat: function() {
+  eat: function () {
     console.log("nom nom nom");
-  }
+  },
 };

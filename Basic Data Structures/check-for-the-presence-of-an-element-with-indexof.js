@@ -6,8 +6,8 @@ function quickCheck(arr, elem) {
   let crossCheck = arr.indexOf(elem);
 
   return crossCheck == -1 ? false : true;
-  
+
   // Only change code above this line
 }
 
-console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+console.log(quickCheck(["squash", "onions", "shallots"], "mushrooms"));

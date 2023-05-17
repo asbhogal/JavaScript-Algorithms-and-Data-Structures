@@ -12,7 +12,7 @@ let result = quoteSample.match(alphabetRegex);
 
 console.log(result);
 
- /*returns:  [
+/*returns:  [
   'T', 'h', 'e', 'q', 'u', 'i', 'c',
   'k', 'b', 'r', 'o', 'w', 'n', 'f',
   'o', 'x', 'j', 'u', 'm', 'p', 's',

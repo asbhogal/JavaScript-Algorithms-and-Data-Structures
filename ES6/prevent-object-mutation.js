@@ -2,7 +2,7 @@
 
 function freezeObj() {
   const MATH_CONSTANTS = {
-    PI: 3.14
+    PI: 3.14,
   };
   // Only change code below this line
 
@@ -11,7 +11,7 @@ function freezeObj() {
   // Only change code above this line
   try {
     MATH_CONSTANTS.PI = 99;
-  } catch(ex) {
+  } catch (ex) {
     console.log(ex);
   }
   return MATH_CONSTANTS.PI;

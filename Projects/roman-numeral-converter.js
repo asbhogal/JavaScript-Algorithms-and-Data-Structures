@@ -18,28 +18,21 @@
 // All roman numerals answers should be provided in upper-case.
 
 class RomanNumeralConverter {
-
   constructor(number) {
-
     this.number = number;
     this.result = "";
-
   }
 
   convertToRomanNumeral(romanSymbol, arabicNumeral) {
-
     while (this.number >= arabicNumeral) {
-
       this.number -= arabicNumeral;
       this.result += romanSymbol;
-
     }
   }
 }
 
 function convertToRoman(num) {
-
- let newConversion = new RomanNumeralConverter(num);
+  let newConversion = new RomanNumeralConverter(num);
 
   newConversion.convertToRomanNumeral("M", 1000);
   newConversion.convertToRomanNumeral("CM", 900);

@@ -5,7 +5,7 @@ function countToFive() {
   let len = firstFive.length;
   // Only change code below this line
   for (let i = 0; i < len; i++) {
-  // Only change code above this line
+    // Only change code above this line
     console.log(firstFive[i]);
   }
 }

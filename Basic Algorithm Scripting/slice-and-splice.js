@@ -7,11 +7,10 @@
 // Return the resulting array. The input arrays should remain the same after the function runs.
 
 function frankenSplice(arr1, arr2, n) {
-
   const arrCopy = [...arr2];
- 
+
   arrCopy.splice(n, 0, ...arr1);
-  
+
   return arrCopy;
 }
 

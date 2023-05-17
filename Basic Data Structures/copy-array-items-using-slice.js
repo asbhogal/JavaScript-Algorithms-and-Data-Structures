@@ -2,9 +2,11 @@
 
 function forecast(arr) {
   // Only change code below this line
-  let newArray = arr.slice(2, 4);  // both index parameters start from 'cold'
+  let newArray = arr.slice(2, 4); // both index parameters start from 'cold'
   return newArray;
 }
 
 // Only change code above this line
-console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+console.log(
+  forecast(["cold", "rainy", "warm", "sunny", "cool", "thunderstorms"])
+);

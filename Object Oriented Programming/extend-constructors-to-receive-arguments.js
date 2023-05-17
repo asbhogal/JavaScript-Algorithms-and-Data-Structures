@@ -6,6 +6,6 @@ function Dog(name, color) {
   this.numLegs = 4;
 }
 
-let terrier = new Dog ('Frodo', 'Maroon');
+let terrier = new Dog("Frodo", "Maroon");
 
 console.log(terrier);

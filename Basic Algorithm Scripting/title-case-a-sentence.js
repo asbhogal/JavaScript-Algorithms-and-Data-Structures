@@ -3,21 +3,18 @@
 // For the purpose of this exercise, you should also capitalize connecting words like the and of.
 
 function titleCase(str) {
-
   const individualWords = str.split(" ");
 
   let finalString = [];
 
-  for (let individualLetter of individualWords) {   
-
-    const modifiedFirstLetter = individualLetter[0].toUpperCase(),   
-          modifiedRemainingLetters = individualLetter.slice(1).toLowerCase();
+  for (let individualLetter of individualWords) {
+    const modifiedFirstLetter = individualLetter[0].toUpperCase(),
+      modifiedRemainingLetters = individualLetter.slice(1).toLowerCase();
 
     finalString.push(`${modifiedFirstLetter}${modifiedRemainingLetters}`);
   }
 
   return finalString.join(" ");
-
 }
 
 console.log(titleCase("I'm a little tea pot"));

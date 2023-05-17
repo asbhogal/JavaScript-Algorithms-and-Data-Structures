@@ -18,7 +18,6 @@ function sequentialSizes(val) {
       answer = "High";
   }
 
-
   // Only change code above this line
   return answer;
 }

@@ -2,13 +2,10 @@
 
 // Do not mutate the original array provided to the function.
 
-const inputCities = [
-  "Chicago", "Delhi", "Islamabad", "London", "Berlin"
-  ];
+const inputCities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
 
 function nonMutatingSplice(cities) {
   return cities.slice(0, 3);
-
 }
 
 console.log(nonMutatingSplice(inputCities));

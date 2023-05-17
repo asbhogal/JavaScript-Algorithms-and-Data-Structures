@@ -5,11 +5,9 @@
 // Hint: Try converting each value to a Boolean.
 
 function bouncer(arr) {
-
   const copyArr = [...arr];
 
-  return copyArr.filter(Boolean)
-
+  return copyArr.filter(Boolean);
 }
 
 console.log(bouncer([null, NaN, 1, 2, undefined]));

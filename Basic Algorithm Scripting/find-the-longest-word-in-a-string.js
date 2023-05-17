@@ -1,25 +1,24 @@
 //Return the length of the longest word in the provided sentence. Your response should be a number.
 
 function findLongestWordLength(str) {
-  
-  let individualWords = str.split(' ');
-  
-  let longestWord = 0
-  
+  let individualWords = str.split(" ");
+
+  let longestWord = 0;
+
   for (let word of individualWords) {
-
     if (word.length > longestWord) {
-
       longestWord = word.length;
-
     }
-
   }
 
   return longestWord;
 }
 
-console.log(findLongestWordLength("What is the average airspeed velocity of an unladen swallow"));
+console.log(
+  findLongestWordLength(
+    "What is the average airspeed velocity of an unladen swallow"
+  )
+);
 
 /*  LINE 5 - TAKES THE str VALUE AND SPLITS IT INTO AN ARRAY OF INDIVIDUAL STRINGS. THE ' ' SIGNIFIES THE SPACE WHERE THE SUBSEQUENT STRING IS, AND IS THEREFORE OMITTED
 

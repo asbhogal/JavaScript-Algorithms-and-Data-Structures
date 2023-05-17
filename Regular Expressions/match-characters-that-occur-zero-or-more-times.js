@@ -4,6 +4,6 @@
 // let chewieRegex = /change/; // Change this line
 // // Only change code above this line
 
-let chewieRegex = /Aa*/;    // Two characters are applied together
+let chewieRegex = /Aa*/; // Two characters are applied together
 
 let result = chewieQuote.match(chewieRegex);

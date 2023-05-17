@@ -9,8 +9,8 @@ The simplest way to make this public property private is by creating a variable 
 
 function Bird() {
   let weight = 15;
-  
-  this.getWeight = function() {
+
+  this.getWeight = function () {
     return weight;
   };
 }
@@ -18,6 +18,6 @@ function Bird() {
 let birdie = new Bird();
 birdie.getWeight();
 
-console.log(birdie.getWeight())   // returns 15
+console.log(birdie.getWeight()); // returns 15
 
 // this.weight is changed to a method

@@ -2,5 +2,5 @@
 
 let dog = {
   name: "Banjo",
-  numLegs: 6
+  numLegs: 6,
 };

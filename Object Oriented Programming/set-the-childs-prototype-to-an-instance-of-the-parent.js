@@ -4,16 +4,16 @@
 
 // Modify the code so that instances of Dog inherit from Animal.
 
-function Animal() { }
+function Animal() {}
 
 Animal.prototype = {
   constructor: Animal,
-  eat: function() {
+  eat: function () {
     console.log("nom nom nom");
-  }
+  },
 };
 
-function Dog() { }
+function Dog() {}
 
 // Only change code below this line
 

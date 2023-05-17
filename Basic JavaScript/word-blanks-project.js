@@ -1,10 +1,12 @@
-function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {                                // WHEN THE FUNCTION wordBlanks IS CALLED, ACCEPT THE DATA IN THE FOUR STRING VARIABLE PARAMETERS
-    var result = ""                                                                         // DECLARE AND INITIALIZE THE result VARIABLE AS A STRING VARIABLE
-    result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store.";        // APPEND THE CONTENTS SENT TO THE PARAMETERS AND CONCATENATE THESE (IN THE RIGHT GRAMMATICAL ORDER). ASSIGN THIS WHOLE STRING VALUE TO result
-    return result;                                                                          // STOPS THE EXECUTION AND RETURNS THE VALUE OF RESULT TO THE INITIAL FUNCTION, WHICH IS THEN SENT TO THE CALL - THIS OUTPUT IS NEEDED
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+  // WHEN THE FUNCTION wordBlanks IS CALLED, ACCEPT THE DATA IN THE FOUR STRING VARIABLE PARAMETERS
+  var result = ""; // DECLARE AND INITIALIZE THE result VARIABLE AS A STRING VARIABLE
+  result +=
+    "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store."; // APPEND THE CONTENTS SENT TO THE PARAMETERS AND CONCATENATE THESE (IN THE RIGHT GRAMMATICAL ORDER). ASSIGN THIS WHOLE STRING VALUE TO result
+  return result; // STOPS THE EXECUTION AND RETURNS THE VALUE OF RESULT TO THE INITIAL FUNCTION, WHICH IS THEN SENT TO THE CALL - THIS OUTPUT IS NEEDED
 }
 
-console.log(wordBlanks("dog", "big", "ran", "quickly"));                                    // IN THE CONSOLE LOG, CALL THE FUNCTION wordBlanks, BY FIRST SENDING IT THESE FOUR STRING VALUES. RETURN THE RESULT.
+console.log(wordBlanks("dog", "big", "ran", "quickly")); // IN THE CONSOLE LOG, CALL THE FUNCTION wordBlanks, BY FIRST SENDING IT THESE FOUR STRING VALUES. RETURN THE RESULT.
 console.log(wordBlanks("bike", "slow", "flew", "slowly"));
 
 // OUTPUT FOR LINE 7 - The big dog ran to the store.

@@ -3,16 +3,16 @@
 let test = "test";
 
 function findElement(arr, func) {
-
   for (let num of arr) {
-    if (func(num) === true) {         // '=== true' IS OPTIONAL, AS BY DEFAULT JS WILL CHECK IF IT IS TRUE TO START WITH
+    if (func(num) === true) {
+      // '=== true' IS OPTIONAL, AS BY DEFAULT JS WILL CHECK IF IT IS TRUE TO START WITH
       return num;
     }
   }
-  return undefined;                   // THIS IS OPTIONAL HOWEVER, AS IF IT DOESN'T MEET THE CONDITION, JS WILL NATURALLY RETURN undefined
+  return undefined; // THIS IS OPTIONAL HOWEVER, AS IF IT DOESN'T MEET THE CONDITION, JS WILL NATURALLY RETURN undefined
 }
 
-console.log(findElement([1, 3, 5, 8, 9, 10], num => num % 2 === 0));
+console.log(findElement([1, 3, 5, 8, 9, 10], (num) => num % 2 === 0));
 
 /* findElement INVOLVES RETURNING TO THE CONSOLE LOG HERE THE FIRST ITEM IN AN ARRAY (FIRST ARGUMENT PASSED TO THE FUNCTION) WHICH PASSES A TEST OF WHETHER IT IS EVEN OR NOT. THE CHECK WHETHER EACH ITEM IS EVEN IS DONE BY THE SECOND ARGUMENT PASSED, WHICH ITSELF IS A FUNCTION. THIS TAKES ONE PARAMETER (num) AND LEVERAGES THE REMAINDER OPERAND TO DIVIDE num BY 2 AND CHECK WHETHER THE REMAINDER IS EQUAL TO 0. IF IT IS, THIS MEANS IT IS TRUE.
 
